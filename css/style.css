@@ -247,6 +247,21 @@ html {
     grid-row: 2 / span 1;
 }
 
+iframe {
+    border: 3px solid red;
+    border-radius: 10px;
+}
 
+/* Subscribe section */
+#subscribe {
+    height: 100vh;
+    
+    /* Make it as grid */
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    align-content: center;
+
+    background-color: rgb(206, 206, 206);
+}
 
 

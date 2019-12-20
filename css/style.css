@@ -1,0 +1,73 @@
+/* Global Variables */
+:root {
+    /* COlors */
+    --main-color: rgb(243, 33, 33);
+    --sub-color1: rgb(255, 122, 122);
+    --sub-color2: rgb(48, 48, 48);
+    --sub-color3: rgb(238, 238, 238);
+}
+
+/* Setup */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a natural box layout model to all elements, 
+but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before, 
+::after {
+    box-sizing: inherit;
+}
+
+/* Header bar */
+#header {
+    /* Fixed position */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    /* Flex container */
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+
+    color: var(--sub-color3);
+    background-color: var(--sub-color2);
+}
+
+#header img {
+    max-width: 75px;
+    height: auto;
+    margin: 0 15px;
+}
+
+/* Nav classes and ids */
+#nav-bar {
+    margin-left: auto;
+}
+
+
+  
+a {
+    border: 3px solid white;
+    color: var(--sub-color3);
+    text-decoration: none;
+}
+
+.content {
+    padding-top: 250px;
+}
+
+
+/* .container {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto auto auto auto auto;
+} */

@@ -56,6 +56,14 @@ html {
     color: var(--sub-color3);
 }
 
+@media only screen and (max-width: 800px) {
+    #header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /* Nav classes and ids */
 #nav-bar {
     margin-left: auto;
@@ -297,9 +305,13 @@ iframe {
     cursor: pointer;
     background-color: green;
 }
+
+footer {
+    color: var(--sub-color3);
+    background-color: var(--sub-color2);
+    padding: 5px 0;
+    font-size: 1.5rem;
 }
-
-
 
 
 

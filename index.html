@@ -1,137 +1,136 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!--Meta data-->
-        <meta charset="UTF_8">
-        <meta name="description" content="FCC Project 3">
-        <meta name="author" content="Mahmoud Mheisen">
-        <meta name="keywords" content="Product landing page cybertruck css fcc">
-        <meta name="viewport" content="width=device-width, 
-                    initial-scale=1.0">
+<html lang="en">
+  <head>
+    <!--Meta data-->
+    <meta charset="UTF-8" />
+    <meta name="description" content="FCC Project 3" />
+    <meta name="author" content="Mahmoud Mheisen" />
+    <meta name="keywords" content="Product landing page cybertruck css fcc" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+                    initial-scale=0.5"
+    />
 
-        <!-- Javascript test -->
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!--Font links-->
 
-        <!--Font links-->
+    <!--CSS links-->
+    <link rel="stylesheet" type="text/CSS" href="css/style.css" />
 
-        
-        <!--CSS links-->
-        <link rel="stylesheet" type="text/CSS" href="css/style.css">
+    <!--Title-->
+    <title>CyberTruck Landing Page</title>
+  </head>
 
+  <body>
+    <header id="header">
+      <img id="header-img" src="images/logo.png" alt="logo" />
+      <h1>CyberTruck</h1>
 
-        <!--Title-->
-        <title>CyberTruck Landing Page</title>
-    </head>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#home">Home</a>
 
-    <body>
-        <header id="header">
-            <img id="header-img" src="images/logo.png" alt="logo">
-            <h1>CyberTruck</h1>
-            
-            <nav id="nav-bar">
-                <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
 
-                <a class="nav-link" href="#about">About</a>
-                    
-                <a class="nav-link" href="#demo">Demo</a>
-                        
-                <a class="nav-link" href="#subscribe">Subscribe</a>    
-            </nav>
-        </header>
+        <a class="nav-link" href="#demo">Demo</a>
 
-        <main class="container content">
-            <!-- Home Section -->
-            <section id="home">
-                <div class="overlay">
-                    <div class="left">
-                        <img src="images/home2.png" alt="image">
-                    </div>
-                
+        <a class="nav-link" href="#subscribe">Subscribe</a>
+      </nav>
+    </header>
 
-                    <div class="right">
-                        <h1>Powerful Engine</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipisicing elit. Et tenetur est expedita 
-                            ab animi earum aperiam delectus vero consequuntur
-                            temporibus?
-                        </p>
-                        <button  type="button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
-            </section>
+    <main class="container content">
+      <!-- Home Section -->
+      <section id="home">
+        <div class="overlay">
+          <div class="left">
+            <img src="images/home2.png" alt="image" />
+          </div>
 
-            <!-- about Section -->
-            <section id="about">
-                <div class="left">
-                    <h3>Best Landing Page For Product Showcase</h3>
-                    <h1>Best Landing Page For Product Showcase</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur 
-                        adipisicing elit. Et tenetur est expedita 
-                        ab animi earum aperiam delectus vero consequuntur
-                            temporibus?
-                    </p>
-                    <div id="features">
-                        <div class="f-item">Good</div>
-                        <div class="f-item">Strong</div>
-                        <div class="f-item">Cool</div>
-                    </div>
-                </div>
+          <div class="right">
+            <h1>Powerful Engine</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+              tenetur est expedita ab animi earum aperiam delectus vero
+              consequuntur temporibus?
+            </p>
+            <button type="button">
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </section>
 
-                <div class="right">
-                    <img src="images/about.png" alt="image">
-                </div>
-            </section>
+      <!-- about Section -->
+      <section id="about">
+        <div class="left">
+          <h3>Best Landing Page For Product Showcase</h3>
+          <h1>Best Landing Page For Product Showcase</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et tenetur
+            est expedita ab animi earum aperiam delectus vero consequuntur
+            temporibus?
+          </p>
+          <div id="features">
+            <div class="f-item">Good</div>
+            <div class="f-item">Strong</div>
+            <div class="f-item">Cool</div>
+          </div>
+        </div>
 
-            <!-- demo Section -->
-            <section id="demo">
-                <div class="up">
-                    <h1>DEMO</h1>
-                    <h3>Best Landing Page For Product Showcase</h3>
-                </div>
+        <div class="right">
+          <img src="images/about.png" alt="image" />
+        </div>
+      </section>
 
-                <div class="down">
-                    <iframe id="video" width="720" height="405" 
-                        src="https://www.youtube.com/embed/m7atGkba-Z8" 
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </section>
+      <!-- demo Section -->
+      <section id="demo">
+        <div class="up">
+          <h1>DEMO</h1>
+          <h3>Best Landing Page For Product Showcase</h3>
+        </div>
 
-            <!-- Subscribe section -->
-            <section id="subscribe">
-                <form id="form" action="https://www.freecodecamp.com/email-submit">
-                    <div class="form-div">
-                        <label id="email-label" for="email">Subscribe Our Newsletter</label>
-                        <input class="form-data" id="email" name="email" type="email" placeholder="Write your email" required>
-                        <input class="form-data" id="submit" 
-                        name="submit" type="submit" value="Subscribe Now">
-                    </div>
-                </form>
-            </section>
+        <div class="down">
+          <iframe
+            id="video"
+            width="720"
+            height="405"
+            src="https://www.youtube.com/embed/m7atGkba-Z8"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </section>
 
-        </main>
-        <footer>
-            <p>&copy; 2019 FCC Project 3 Product Landing Page </p> 
-        </footer>
-    </body>
+      <!-- Subscribe section -->
+      <section id="subscribe">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="form-div">
+            <label id="email-label" for="email">Subscribe Our Newsletter</label>
+            <input
+              class="form-data"
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Write your email"
+              required
+            />
+            <input
+              class="form-data"
+              id="submit"
+              name="submit"
+              type="submit"
+              value="Subscribe Now"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2019 FCC Project 3 Product Landing Page</p>
+    </footer>
+
+    <!-- Javascript test -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
